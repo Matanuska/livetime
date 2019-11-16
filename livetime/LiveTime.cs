@@ -19,6 +19,7 @@ namespace livetime
         {
 
             this.ReadOnly = true;
+            
             this.TimeZone = TimeZoneInfo.Local;
             
             DisplayTime();

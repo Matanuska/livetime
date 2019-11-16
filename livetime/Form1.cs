@@ -18,13 +18,17 @@ namespace livetime
         }
 
         private void Form1_Load(object sender, EventArgs e)
-        {
-            liveTime1.TimeZone = TimeZoneInfo.FindSystemTimeZoneById("Alaskan Standard Time");
+        {            
         }
 
         private void toolTip1_Popup(object sender, PopupEventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            liveTime1.TimeZone = TimeZoneInfo.FindSystemTimeZoneById("Alaskan Standard Time");            
         }
     }
 }
